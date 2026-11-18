@@ -1,0 +1,2 @@
+# Runtime: Python standard library only
+# Tests: python3 -m unittest discover -s tests -v

@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ml-io-scheduler-simulator"
+version = "0.1.0"
+description = "Algorithm-level simulator inspired by machine-learning I/O scheduling research"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+iosched = "iosched.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["iosched*"]
